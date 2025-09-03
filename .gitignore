@@ -1,0 +1,14 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/*.log
+.vscode/*.cache
+
+# Dev Containers
+.devcontainer/\*.local\*.json
+.devcontainer/\*.env
+
+# Node tooling caches (if added later)
+node_modules/

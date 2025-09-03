@@ -1,0 +1,23 @@
+{
+  "name": "Docs Workspace",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "yzhang.markdown-all-in-one",
+        "redhat.vscode-yaml",
+        "ms-azuretools.vscode-docker"
+      ],
+      "settings": {
+        "files.eol": "\n",
+        "editor.wordWrap": "on"
+      }
+    }
+  },
+  "postCreateCommand": "git --version && gh --version || true",
+  "remoteUser": "vscode"
+}

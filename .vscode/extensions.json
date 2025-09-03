@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "ms-vscode-remote.remote-wsl",
+    "ms-vscode-remote.remote-containers",
+    "ms-azuretools.vscode-docker",
+    "yzhang.markdown-all-in-one",
+    "redhat.vscode-yaml",
+    "EditorConfig.EditorConfig"
+  ]
+}
